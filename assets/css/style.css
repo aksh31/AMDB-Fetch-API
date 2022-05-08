@@ -11,13 +11,14 @@ body{
 }
 .overview{
     position: absolute;
+    /* height: 100%; */
     bottom: 0;
     left: 0;
     transform: translateY(1000px);
     transition: all 0.5s ease-in-out;
     overflow-y: auto;
     font-style: italic;
-    /* display: none; */
+    display: none;
 }
 .card:hover .overview{
     transform: translateY(0);
@@ -25,9 +26,8 @@ body{
 .myImg{
     height: 496px;
 }
-
-.headings{
-    /* display: inline-block; */
+.myImg img{
+    height: 100%;
 }
 .headings h4{
     float: left;
@@ -37,4 +37,16 @@ body{
     float: right;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 5px 8px;
+    border-radius: 5px;
+    width: 37px;
+    text-align: center;
+}
+.green{
+    color: greenyellow;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
 }
