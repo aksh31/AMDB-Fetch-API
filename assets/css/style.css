@@ -18,7 +18,6 @@ body{
     transition: all 0.5s ease-in-out;
     overflow-y: auto;
     font-style: italic;
-    display: none;
 }
 .card:hover .overview{
     transform: translateY(0);
